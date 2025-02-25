@@ -1,22 +1,22 @@
-# Width and Height of the project window
+# רוחב וגובה של חלון הפרויקט
 
 WINDOW_WIDTH = 360
 WINDOW_HEIGHT = 720
 
-# Post proportions
-# X, Y represent the top left corner of the Post
+# פרופורציות פוסט
+# X, Y מייצגים את הפינה השמאלית העליונה של הפוסט
 POST_WIDTH = 0.87 * WINDOW_WIDTH
 POST_HEIGHT = 0.41 * WINDOW_HEIGHT
 POST_X_POS = 0.064 * WINDOW_WIDTH
 POST_Y_POS = 0.2 * WINDOW_HEIGHT
 
-# Like button proportions and position on the screen
+# כמו פרופורציות כפתור ומיקום על המסך
 LIKE_BUTTON_X_POS = 0.1 * WINDOW_WIDTH
 LIKE_BUTTON_Y_POS = 0.622 * WINDOW_HEIGHT
 LIKE_BUTTON_WIDTH = 0.067 * WINDOW_WIDTH
 LIKE_BUTTON_HEIGHT = 0.033 * WINDOW_HEIGHT
 
-# Add comment button proportions and position on the screen
+# הוסף פרופורציות של כפתור הערה ומיקום על המסך
 COMMENT_BUTTON_X_POST = 0.195 * WINDOW_WIDTH
 COMMENT_BUTTON_Y_POS = 0.622 * WINDOW_HEIGHT
 COMMENT_BUTTON_WIDTH = 0.067 * WINDOW_WIDTH
@@ -27,38 +27,37 @@ SHARE_BUTTON_Y_POS = 0.622 * WINDOW_HEIGHT
 SHARE_BUTTON_WIDTH = 0.067 * WINDOW_WIDTH
 SHARE_BUTTON_HEIGHT = 0.033 * WINDOW_HEIGHT
 
-# User name lines' position on the screen
+# מיקום שורות שמות המשתמש על המסך
 USER_NAME_X_POS = 0.178 * WINDOW_WIDTH
 USER_NAME_Y_POS = 0.156 * WINDOW_HEIGHT
 
-# Location line shows the location of the post
-# Location lines' position on the screen
+# שורת מיקום מציגה את מיקום הפוסט
+# מיקום קווי המיקום על המסך
 LOCATION_TEXT_X_POS = 0.178 * WINDOW_WIDTH
 LOCATION_TEXT_Y_POS = 0.172 * WINDOW_HEIGHT
 
-# Description lines' position on the screen
+# מיקום קווי התיאור על המסך
 DESCRIPTION_TEXT_X_POS = 0.111 * WINDOW_WIDTH
 DESCRIPTION_TEXT_Y_POS = 0.678 * WINDOW_HEIGHT
 
-# Like line shows how many likes the post has
-# Like lines' position on the screen
+# שורת לייק מראה כמה לייקים יש לפוסט
+# כמו מיקום הקווים על המסך
 LIKE_TEXT_X_POS = 0.111 * WINDOW_WIDTH
 LIKE_TEXT_Y_POS = 0.658 * WINDOW_HEIGHT
 
-# View more comments appears when there are more comments available than
-# can be shown on the screen
-# View more comments lines' position on the screen
+# הצג יותר תגובות מופיע כאשר יש יותר תגובות זמינות מאשר ניתן להציג
+# על המסך הצג את המיקום של שורות הערות נוספות על המסך
 VIEW_MORE_COMMENTS_X_POS = 0.111 * WINDOW_WIDTH
 VIEW_MORE_COMMENTS_Y_POS = 0.85 * WINDOW_HEIGHT
 VIEW_MORE_COMMENT_HEIGHT = 0.017 * WINDOW_HEIGHT
 VIEW_MORE_COMMENT_WIDTH = 0.233 * WINDOW_WIDTH
 
-# The location of the first comment on the screen and the comment line height
+# מיקום ההערה הראשונה על המסך וגובה שורת ההערות
 FIRST_COMMENT_X_POS = 0.111 * WINDOW_WIDTH
 FIRST_COMMENT_Y_POS = 0.7 * WINDOW_HEIGHT
 COMMENT_LINE_HEIGHT = 20
 
-# The size of the text that on the post
+# גודל הטקסט בפוסט
 TEXT_POST_FONT_SIZE = 40
 
 NUM_OF_COMMENTS_TO_DISPLAY = 6

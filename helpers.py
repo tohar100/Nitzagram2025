@@ -58,8 +58,7 @@ def draw_comment_text_box():
     pygame.display.flip()
 
 
-# Get the comment that the user typed will using Nitzagram and translate it
-# to string
+# קבלו את ההערה שהמשתמש הקליד יעשה באמצעות Nitzagram ותרגמו אותה למחרוזת
 def read_comment_from_user():
     """
     Read the comment the user type.
@@ -68,10 +67,10 @@ def read_comment_from_user():
     """
     pressed_enter = False
     new_comment = ""
-    # Draw the rectangle where the user can see the comment he typed
+    # צייר את המלבן שבו המשתמש יכול לראות את ההערה שהקליד
     draw_comment_text_box()
     while not pressed_enter:
-        # get the string for comment
+        # קבל את המחרוזת להערה
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
                 draw_comment_text_box()
@@ -106,11 +105,11 @@ def center_text(num_of_rows, text_to_display, row_number):
     """
     horizontal_margin = \
         (POST_HEIGHT - num_of_rows * TEXT_POST_FONT_SIZE) // 2
-    # Get the text object size (height and width)
+    # קבל את גודל אובייקט הטקסט (גובה ורוחב)
     text_rect = text_to_display.get_rect()
-    # Center the text to the center of X axis
+    # מרכז את הטקסט למרכז ציר X
     text_rect.x = ((POST_WIDTH - text_rect.width) // 2) + 20
-    # Center the text to the center of the post on Y axis
+    # מרכז את הטקסט למרכז הפוסט על ציר Y
     text_rect.y = (POST_Y_POS + horizontal_margin +
                    row_number * TEXT_POST_FONT_SIZE)
     return text_rect

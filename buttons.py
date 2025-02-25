@@ -1,4 +1,4 @@
-# Create Buttons: like, comment, change_image, view more comments
+# צור כפתורים: לייק, הערה, שינוי_תמונה, צפה בתגובות נוספות
 from classes.Button import Button
 from constants import *
 
